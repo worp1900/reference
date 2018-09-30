@@ -9,4 +9,6 @@
 
 Check the maximum allowed amount of open files systemwide.
 
-Tags: max, amount, open, files, system, wide, ubuntu
+**Tags:** max, amount, open, files, system, wide, ubuntu
+
+**Alternative:** lsof | wc -l
