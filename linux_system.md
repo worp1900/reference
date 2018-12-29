@@ -1,4 +1,13 @@
 
+# Commands
+## Stats
+### free
+
+    $ free -m
+
+To see stats about available, max, used, etc. memory of the system.
+
+**Tags:** available, memory, ubuntu
 
 # Files
 
