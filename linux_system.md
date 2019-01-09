@@ -44,3 +44,7 @@ Get the system memory info:
 Get the CPU info:
 
     $ cat /proc/cpuinfo
+
+An alternative for CPU infos is:
+
+	$ lscpu
