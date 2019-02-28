@@ -11,6 +11,14 @@ To see stats about available, max, used, etc. memory of the system.
 
 **Tags:** available, memory, ubuntu
 
+#### parted
+
+    $ sudo parted /dev/sda unit GB print free | grep 'Free Space' | tail -n1 | awk '{print $3}'
+
+Check the available, unpartitioned space available on the physical disk /dev/sda. Substitute with the device name you want to check.
+
+**Tags:** free, disk, physical, partition, space
+
 ## Files
 
 ### Stats
